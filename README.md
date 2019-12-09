@@ -1,7 +1,7 @@
 # Quarkus-Kotlin
 <br/>
 <p align="center">
-<img src="../images/quarkus.png">
+<img src="./images/quarkus.png">
 <br/>
 </p>
 <br/>
