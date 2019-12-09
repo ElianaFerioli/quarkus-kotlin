@@ -37,3 +37,11 @@ docker build -f src/main/docker/Dockerfile.native -t quarkus/quarkus-kotlin .
 ```
 docker run -i --rm -p 8080:8080 quarkus/quarkus-kotlin
 ```
+
+## Check that the application is running
+<br/>
+<p align="center">
+<img src="./images/helloworld.png">
+<br/>
+</p>
+<br/>
