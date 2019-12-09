@@ -6,7 +6,7 @@
 </p>
 <br/>
 
-## Crear un stack de servicios gestionados por doker-compose.
+## Create a Kotlin project with Quarkus Maven Plugin.
 > In this case, we already generate the Kotlin project using the maven plugin through this command: ``` mvn io.quarkus:quarkus-maven-plugin:1.0.1.Final:create \
     -DprojectGroupId=org.malagadevfest \
     -DprojectArtifactId=quarkus-kotlin \
