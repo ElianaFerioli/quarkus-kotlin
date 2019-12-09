@@ -19,15 +19,9 @@
 ```
 mvn package
 ```
-
-<br/>
-
 ```
 docker build -f src/main/docker/Dockerfile.jvm -t quarkus/quarkus-kotlin-jvm .
 ```
-
-<br/>
-
 ```
 docker run -i --rm -p 8080:8080 quarkus/quarkus-kotlin-jvm
 ```
@@ -37,15 +31,9 @@ docker run -i --rm -p 8080:8080 quarkus/quarkus-kotlin-jvm
 ```
 mvn package -Pnative -Dquarkus.native.container-build=true
 ```
-
-<br/>
-
 ```
 docker build -f src/main/docker/Dockerfile.native -t quarkus/quarkus-kotlin .
 ```
-
-<br/>
-
 ```
 docker run -i --rm -p 8080:8080 quarkus/quarkus-kotlin
 ```
